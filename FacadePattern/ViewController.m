@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CarDriver.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    CarDriver * driver=[[CarDriver alloc]init];
+    
+    [driver driveToLocation:CGPointMake(10, 5)];
+    
 }
 
 

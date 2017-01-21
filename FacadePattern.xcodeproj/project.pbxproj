@@ -15,6 +15,12 @@
 		A27EA4CA1E31B67B00685A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27EA4C81E31B67B00685A59 /* LaunchScreen.storyboard */; };
 		A27EA4D51E31B67B00685A59 /* FacadePatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27EA4D41E31B67B00685A59 /* FacadePatternTests.m */; };
 		A27EA4E01E31B67C00685A59 /* FacadePatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27EA4DF1E31B67C00685A59 /* FacadePatternUITests.m */; };
+		A27EA4EE1E31B6B100685A59 /* Facade in Resources */ = {isa = PBXBuildFile; fileRef = A27EA4ED1E31B6B100685A59 /* Facade */; };
+		A27EA4F41E31B87900685A59 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27EA4F31E31B87900685A59 /* CoreFoundation.framework */; };
+		A27EA4FC1E31BA2200685A59 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A27EA4F71E31BA2200685A59 /* Car.m */; };
+		A27EA4FD1E31BA2200685A59 /* CarDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = A27EA4F91E31BA2200685A59 /* CarDriver.m */; };
+		A27EA4FE1E31BA2200685A59 /* Taximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = A27EA4FB1E31BA2200685A59 /* Taximeter.m */; };
+		A27EA5001E31BC4D00685A59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27EA4FF1E31BC4D00685A59 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		A27EA4DB1E31B67B00685A59 /* FacadePatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacadePatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27EA4DF1E31B67C00685A59 /* FacadePatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadePatternUITests.m; sourceTree = "<group>"; };
 		A27EA4E11E31B67C00685A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27EA4ED1E31B6B100685A59 /* Facade */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Facade; path = /Users/a415/Desktop/FacadePattern/FacadePattern/Facade; sourceTree = "<absolute>"; };
+		A27EA4F31E31B87900685A59 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A27EA4F61E31BA2200685A59 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = Facade/Car.h; sourceTree = "<group>"; };
+		A27EA4F71E31BA2200685A59 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = Facade/Car.m; sourceTree = "<group>"; };
+		A27EA4F81E31BA2200685A59 /* CarDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarDriver.h; path = Facade/CarDriver.h; sourceTree = "<group>"; };
+		A27EA4F91E31BA2200685A59 /* CarDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarDriver.m; path = Facade/CarDriver.m; sourceTree = "<group>"; };
+		A27EA4FA1E31BA2200685A59 /* Taximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Taximeter.h; path = Facade/Taximeter.h; sourceTree = "<group>"; };
+		A27EA4FB1E31BA2200685A59 /* Taximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Taximeter.m; path = Facade/Taximeter.m; sourceTree = "<group>"; };
+		A27EA4FF1E31BC4D00685A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27EA5001E31BC4D00685A59 /* UIKit.framework in Frameworks */,
+				A27EA4F41E31B87900685A59 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,7 @@
 				A27EA4D31E31B67B00685A59 /* FacadePatternTests */,
 				A27EA4DE1E31B67B00685A59 /* FacadePatternUITests */,
 				A27EA4B81E31B67B00685A59 /* Products */,
+				A27EA4F21E31B87800685A59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +123,12 @@
 				A27EA4BE1E31B67B00685A59 /* AppDelegate.m */,
 				A27EA4C01E31B67B00685A59 /* ViewController.h */,
 				A27EA4C11E31B67B00685A59 /* ViewController.m */,
+				A27EA4F61E31BA2200685A59 /* Car.h */,
+				A27EA4F71E31BA2200685A59 /* Car.m */,
+				A27EA4F81E31BA2200685A59 /* CarDriver.h */,
+				A27EA4F91E31BA2200685A59 /* CarDriver.m */,
+				A27EA4FA1E31BA2200685A59 /* Taximeter.h */,
+				A27EA4FB1E31BA2200685A59 /* Taximeter.m */,
 				A27EA4C31E31B67B00685A59 /* Main.storyboard */,
 				A27EA4C61E31B67B00685A59 /* Assets.xcassets */,
 				A27EA4C81E31B67B00685A59 /* LaunchScreen.storyboard */,
@@ -138,6 +162,15 @@
 				A27EA4E11E31B67C00685A59 /* Info.plist */,
 			);
 			path = FacadePatternUITests;
+			sourceTree = "<group>";
+		};
+		A27EA4F21E31B87800685A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27EA4FF1E31BC4D00685A59 /* UIKit.framework */,
+				A27EA4F31E31B87900685A59 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +284,7 @@
 			files = (
 				A27EA4CA1E31B67B00685A59 /* LaunchScreen.storyboard in Resources */,
 				A27EA4C71E31B67B00685A59 /* Assets.xcassets in Resources */,
+				A27EA4EE1E31B6B100685A59 /* Facade in Resources */,
 				A27EA4C51E31B67B00685A59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +312,10 @@
 			files = (
 				A27EA4C21E31B67B00685A59 /* ViewController.m in Sources */,
 				A27EA4BF1E31B67B00685A59 /* AppDelegate.m in Sources */,
+				A27EA4FC1E31BA2200685A59 /* Car.m in Sources */,
+				A27EA4FE1E31BA2200685A59 /* Taximeter.m in Sources */,
 				A27EA4BC1E31B67B00685A59 /* main.m in Sources */,
+				A27EA4FD1E31BA2200685A59 /* CarDriver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +553,7 @@
 				A27EA4E61E31B67C00685A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27EA4E71E31B67C00685A59 /* Build configuration list for PBXNativeTarget "FacadePatternTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +562,7 @@
 				A27EA4E91E31B67C00685A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27EA4EA1E31B67C00685A59 /* Build configuration list for PBXNativeTarget "FacadePatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +571,7 @@
 				A27EA4EC1E31B67C00685A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
